@@ -1,0 +1,30 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET Framework Build
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: 檢出程式碼
+      uses: actions/checkout@v3
+
+    - name: 設定 MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: 建置解決方案
+      run: msbuild TimeEditor.sln /p:Configuration=Release
+
+    - name: 發佈建置產物
+      uses: actions/upload-artifact@v3
+      with:
+        name: BuildOutput
+        path: TimeEditor/bin/Release/
