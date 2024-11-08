@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeEditor", "TimeEditor\TimeEditor.csproj", "{145147E5-B061-4FD8-A3CE-DE91284565DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{145147E5-B061-4FD8-A3CE-DE91284565DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145147E5-B061-4FD8-A3CE-DE91284565DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145147E5-B061-4FD8-A3CE-DE91284565DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145147E5-B061-4FD8-A3CE-DE91284565DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7084B911-5A08-4B37-9FD2-F2D9A84958A1}
+	EndGlobalSection
+EndGlobal
